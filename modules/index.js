@@ -69,7 +69,7 @@ window.addEventListener('DOMContentLoaded', () => {
   navigate();
 });
 
- function time() {
+function time() {
   const siteDate = document.querySelector('#date');
   siteDate.textContent = DateTime.now().toLocaleString({
     month: 'long',
@@ -78,6 +78,6 @@ window.addEventListener('DOMContentLoaded', () => {
     hour: 'numeric',
     minute: '2-digit',
   });
-};
+}
 
 setInterval(time, 1000);
