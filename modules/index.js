@@ -69,7 +69,7 @@ window.addEventListener('DOMContentLoaded', () => {
   navigate();
 });
 
-function time() {
+ time = () => {
   const siteDate = document.querySelector('#date');
   siteDate.textContent = DateTime.now().toLocaleString({
     month: 'long',
